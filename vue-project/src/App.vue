@@ -1,19 +1,23 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref } from 'vue'
+import SideNavigation from '@/components/SideNavigation.vue'
+
+const drawer = ref(false)
+</script>
 
 <template>
-  <v-container>
-    <v-row>
-      <v-col cols="12" md="8">
-       <v-card >
-        <v-card-title>
-          Welcome to Your Vue.js App <v-icon>
-            mdi-vuejs
-          </v-icon>
-        </v-card-title>
-       </v-card>
-      </v-col>
-    </v-row>
-  </v-container>
-</template>
+  <v-app>
+    <v-app-bar :elevation="0" class="border-b" app>
+      <v-app-bar-nav-icon @click="drawer = !drawer" />
+      <v-app-bar-title>Valti Shop</v-app-bar-title>
+    </v-app-bar>
 
-<style scoped></style>
+    <SideNavigation v-model="drawer" />
+
+    <v-main>
+      <v-container fluid class="pa-6">
+        <router-view />
+      </v-container>
+    </v-main>
+  </v-app>
+</template>
