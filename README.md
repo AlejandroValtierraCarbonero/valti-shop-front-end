@@ -16,7 +16,8 @@ Proyecto de práctica. El Front-end de una tienda
 
 ## Arquitectura
 
-El proyecto coniste en una SPA que conecta con una API Rest
+* El proyecto coniste en una SPA que conecta con una API Rest
+* El proyecto será enteramente responsive y tendrá versión tanto para ordenadores, como tables como móviles
 
 ## Iniciar el proyecto
 
