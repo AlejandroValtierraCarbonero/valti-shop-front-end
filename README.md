@@ -19,6 +19,10 @@ Proyecto de práctica. El Front-end de una tienda
 * El proyecto coniste en una SPA que conecta con una API Rest
 * El proyecto será enteramente responsive y tendrá versión tanto para ordenadores, como tables como móviles
 
+## Repositorio
+
+* Se seguirán las buenas prácticas de gestión de repositoio con la metodología gitflow
+
 ## Iniciar el proyecto
 
 Para inciar el proyecto en local hay que ejecutar los siguientes comandos
