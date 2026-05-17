@@ -6,7 +6,9 @@
       <v-col cols="12" md="8">
        <v-card >
         <v-card-title>
-          Welcome to Your Vue.js App
+          Welcome to Your Vue.js App <v-icon>
+            mdi-vuejs
+          </v-icon>
         </v-card-title>
        </v-card>
       </v-col>
