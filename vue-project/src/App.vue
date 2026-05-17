@@ -1,11 +1,17 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <v-container>
+    <v-row>
+      <v-col cols="12" md="8">
+       <v-card >
+        <v-card-title>
+          Welcome to Your Vue.js App
+        </v-card-title>
+       </v-card>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <style scoped></style>
